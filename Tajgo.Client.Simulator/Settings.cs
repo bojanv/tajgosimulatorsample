@@ -8,7 +8,7 @@
         /// <summary>
         /// The iot hub owner connection string
         /// </summary>
-        public const string IotHubOwnerConnectionString = "HostName=tajgoiot.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=dQ6ZbMHh7KYI0inu1ES13AJXShVZVxZ4A7B4CCV7/D0=";
+        public const string IotHubOwnerConnectionString = "[IOT hub Connection String]";
         /// <summary>
         /// The iot hub D2C endpoint
         /// </summary>
@@ -16,6 +16,6 @@
         /// <summary>
         /// The iot hub host name
         /// </summary>
-        public const string IotHubHostName = "tajgoiot.azure-devices.net";
+        public const string IotHubHostName = "[IotHubHostName].azure-devices.net";
     }
 }
