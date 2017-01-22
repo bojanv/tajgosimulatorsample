@@ -30,13 +30,13 @@ After data is received, [Azure Stream Analytics](https://azure.microsoft.com/en-
 Query in Azure Stream Analytics get's the data from Azure IoT Hub and then saves data to  [Azure Table Storage](https://docs.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-tables "Azure Table Storage") for raw log processing. Other data is saved into [Sql Azure](https://azure.microsoft.com/en-us/services/sql-database/?b=16.50 "Azure SQL"). Other services are added to for additional data management possibilities (like PowerBI for creating rich visualizations, etc.).
 
 
-The result is then entries in the database with following structure. Data is then be pulled out of database for data analysis and preview on website.
+The result is then entries in the database with following structure. Data is then be pulled out of database for data analysis and preview on website (other database tables ommited).
 
- ![](https://depota.bn1301.livefilestore.com/y3mAFJaXEqZmi_pJt5AQWSmjxcusg4BTXZrS8H47b5Lso0dLfX64Wvt1MRKRKVfO-v0oV9JuV3fK438hiSz63mqBsptAbrbWoJS_5Okh0sTLQr2GiLolSJS8cV37-mW--ZPgPGxMEqaJs7VnYaR_8RLBTKFqaih5cnYgzQarkYbQO0?width=391&height=365&cropmode=none)
+![Database](https://gt0xdw.bn1301.livefilestore.com/y3mtDOx-EWJbrM881IQ2GOsrW_JlDANEqTWJRt_cRgPhKIzsboAQMNjcvf_vXWdHZXU5Y6cKu2s235vdaIUcJj6MPgpvxq6gcCxZO6rM080NY6X1Fc77kqyXVNNQ16JSqq_nGpp2695C8cIh4IWh5aRebbNfFWNqzkX-NCzPs_BtSk?width=594&height=609&cropmode=none)
 
-You can download script [here](https://1drv.ms/u/s!At3HFvGXo562q4seNh4WywgrRlqg5w "Download script").
+You can download SQL script for creating the upper structure [here](https://1drv.ms/u/s!At3HFvGXo562q4skM9Si7SrISHFwtw "Download script").
 
-## Sample instructions ##
+## Sample instructions for code to work ##
 
 In order to use the sample, you will need to create Azure IoT Hub. You can create it via [Azure Portal](https://portal.azure.com "Azure Portal"). Follow [this tutorial](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-csharp-csharp-getstarted "Tutorial on how to create Azure IoT Hub") to create IoT Hub.
 
